@@ -1,0 +1,6 @@
+{
+    "program": "avr.aleo",
+    "version": "0.0.1",
+    "description": "Aleo Validator Registry Program",
+    "license": "MIT"
+}

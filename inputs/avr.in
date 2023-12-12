@@ -1,0 +1,16 @@
+// The program input for avr/src/main.leo
+[main]
+public a: u32 = 1u32;
+b: u32 = 2u32;
+
+[alvin]
+public a: u32 = 3u32;
+b: u32 = 4u32;
+
+[register_validator]
+public validator_address: address = 0x1234;
+validator: Validator = Validator {
+    name: u128 = 123field,
+    website_url: u128  = 456field,
+    logo_url: 128 = 789field,
+};
