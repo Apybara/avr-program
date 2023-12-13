@@ -63,7 +63,7 @@ program avr.aleo {
         // check if validator address already exists
         let existing_validator_from_map: Validator = Mapping::get(validator_registry, existing_validator.validator_address);
         assert_eq(existing_validator.validator_address, existing_validator_from_map.validator_address);
-        Mapping::set(validator_registry, existing_validator.validator_address, existing_validator_from_map);
+        Mapping::set(validator_registry, existing_validator.validator_address, existing_validator);
     }
 
 }
