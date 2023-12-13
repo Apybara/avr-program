@@ -20,6 +20,9 @@ leo run register_validator "{"validator_address":"aleo14yr9gw824yp95fpwfvyq0q5zk
 ```
 
 ### Call the update validator function (this can only be called an existing validator)
+
+A more detailed instruction can be found [here](https://apybara.notion.site/AVR-How-to-update-the-validator-registry-a56f080224b348dc9ff320c12439f814)
+
 Only registered validators can call this function. The validator can only update their own information.
 ```
 leo run update_validator "{"validator_address":"aleo14yr9gw824yp95fpwfvyq0q5zka088g530chltrsvpsjpusqupgrqlgcu84","name": 123456789123456789123456789123456789123456789field, "website_url": 123456789123456789123456789123456789123456789field, "logo_url": 123456789123456789123456789123456789123456789field}"
